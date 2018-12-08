@@ -10,10 +10,19 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "strictFunctionTypes": false,
     "baseUrl": ".",
     "types": [
       "webpack-env",
       "jest"
+    ],
+    "typeRoots": [
+      "./src/@types",
+      "./node_modules/@types"
     ],
     "paths": {
       "@/*": [
